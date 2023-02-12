@@ -19,7 +19,7 @@ namespace CalculationTest
         {
             expectedResult = 5;
             actualResult = UnitTest1.DivideIntegers(120 ,0);
-            Assert.True(actualResult==expectedResult, $"Expected result is {expectedResult}");
+            Assert.True(actualResult==, $"Expected result is {expectedResult}");
             }
 
         [Test]
